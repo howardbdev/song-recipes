@@ -1,1 +1,14 @@
 views/songs/create_song.erb
+
+<form action='/songs' method='post'>
+
+  <label>Song Title</label>
+  <input type='text' name='title'>
+
+  <label>Lyrics</label>
+  <textarea type='text' cols='100' rows='20' name='lyrics'></textarea>
+
+  <label>Create Song</label>
+  <input type='submit'>
+  
+</form>
